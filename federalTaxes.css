@@ -1,0 +1,11 @@
+button {
+    background-color: lightgray;
+}
+input{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+tr {
+    height: 20px;
+}

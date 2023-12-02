@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Federal Tax Calculator</title>
+        <link rel="stylesheet" href="federalTaxes.css">
+    </head>
+
+    <body>
+        <label for="input1">Gross income:</label>
+        <br>
+        <input type="number" id="input"
+            minlength="1" value=""/>
+        <br>
+        <button id="myButton">Calculate</button>
+        <table border="1">
+            <tr>
+                <th>Total Taxed</th>
+                <th>Effective Tax Rate</th>
+                <th>Net Income</th>
+                <th>Monthly Income</th>
+            </tr>
+            <tr>
+                <td id="tax"></td>
+                <td id="rate"></td>
+                <td id="net"></td>
+                <td id="monthly"></td>
+            </tr>
+        </table>
+    </body>
+
+    <script src="federalTaxes.js"></script>
+</html>
